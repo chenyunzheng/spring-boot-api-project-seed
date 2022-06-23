@@ -1,7 +1,8 @@
-package com.company.project.core;
+package com.airuolin.project.core;
 
 /**
  * 响应结果生成工具
+ * @author chrischen
  */
 public class ResultGenerator {
     private static final String DEFAULT_SUCCESS_MESSAGE = "SUCCESS";

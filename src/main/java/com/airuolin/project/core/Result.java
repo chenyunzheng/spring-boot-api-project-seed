@@ -1,9 +1,10 @@
-package com.company.project.core;
+package com.airuolin.project.core;
 
 import com.alibaba.fastjson.JSON;
 
 /**
  * 统一API响应结果封装
+ * @author chrischen
  */
 public class Result<T> {
     private int code;

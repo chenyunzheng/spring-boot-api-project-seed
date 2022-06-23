@@ -1,4 +1,4 @@
-package ${basePackage}.web;
+package ${basePackage}.controller;
 
 import ${basePackage}.core.Result;
 import ${basePackage}.core.ResultGenerator;
@@ -12,7 +12,8 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
-* Created by ${author} on ${date}.
+* @author Created by ${author}
+* @date ${date}
 */
 @RestController
 @RequestMapping("${baseRequestMapping}")
@@ -34,7 +35,7 @@ public class ${modelNameUpperCamel}Controller {
 
     @PutMapping
     public Result update(@RequestBody ${modelNameUpperCamel} ${modelNameLowerCamel}) {
-        ${modelNameLowerCamel}Service.update(${modelNameLowerCamel});
+        ${modelNameLowerCamel}Service.updateById(${modelNameLowerCamel});
         return ResultGenerator.genSuccessResult();
     }
 
